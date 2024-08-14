@@ -131,6 +131,7 @@ cv2.destroyAllWindows()
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/9ec36ab5-1476-4dea-89ca-22adce47824c)
 ![image](https://github.com/user-attachments/assets/80416d64-0fc2-458f-8d29-5320692a2c8c)
+
 ![image](https://github.com/user-attachments/assets/8ffa5dd2-454a-4ddc-9ce9-54d0a8c772a4)
 ![image](https://github.com/user-attachments/assets/ac23a976-1cd3-498b-bcef-122f06e90b2a)
 ![image](https://github.com/user-attachments/assets/b387aecb-5001-42d1-aa80-f548937f6446)
@@ -172,6 +173,7 @@ cv2.destroyAllWindows()
 
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/392c8983-285e-4dd2-8f8f-0c1055e7357e)
+
 ![image](https://github.com/user-attachments/assets/d728ca83-5955-4d58-833d-8d345437c00d)
 ![image](https://github.com/user-attachments/assets/e064d49c-a560-43b1-8cb3-6bd6d3b86a08)
 
@@ -221,6 +223,7 @@ cv2.destroyAllWindows()
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/bca5f1e9-fd70-4464-8304-0b8caafe5eee)
 ![image](https://github.com/user-attachments/assets/84b2fa83-3a6b-4035-b278-3499c8114bbf)
+
 ![image](https://github.com/user-attachments/assets/50364ca8-8ecb-4cb3-818c-f3446011e5b0)
 ![image](https://github.com/user-attachments/assets/be68f6f3-4c0d-4cef-8b1e-a92850b5adac)
 
