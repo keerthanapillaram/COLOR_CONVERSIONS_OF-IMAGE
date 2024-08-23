@@ -79,7 +79,7 @@ i)Draw a line from the top-left to the bottom-right of the image.
 
 ```Python
 import cv2
-img = cv2.imread("sun.JPG")
+img = cv2.imread("C.JPG")
 res = cv2.line(img, (0, 0), (599, 799), (200, 100, 205), 10)
 cv2.imshow('Image Window', res)
 cv2.waitKey(0)
@@ -101,7 +101,7 @@ cv2.destroyAllWindows()
 import cv2
 
 # Load the image
-img = cv2.imread("sun.JPG")
+img = cv2.imread("C.JPG")
 
 # Get the dimensions of the image
 height, width, _ = img.shape
@@ -130,7 +130,7 @@ cv2.destroyAllWindows()
 ```Python
 import cv2
 
-img = cv2.imread("sun.JPG")
+img = cv2.imread("C.JPG")
 start=(0,0)
 stop=(409,529)
 color=(100,255,100)
@@ -156,7 +156,7 @@ cv2.destroyAllWindows()
 import cv2
 
 # Load the image
-img = cv2.imread("sun.JPG")
+img = cv2.imread("C.JPG")
 
 # Define the text to be added and its position
 text = "OPENCV DRAWING"
@@ -188,7 +188,7 @@ cv2.destroyAllWindows()
 i)Convert the image from RGB to HSV and display it.
 ```Python
 import cv2
-img = cv2.imread('sun.jpg',1)
+img = cv2.imread('c.jpg',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
 hsv2 = cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
@@ -205,7 +205,7 @@ cv2.destroyAllWindows()
 #### ii.)Convert the image from RGB to GRAY and display it.
 ```Python
 import cv2
-img = cv2.imread('sun.jpg',1)
+img = cv2.imread('c.jpg',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
 gray2 = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
@@ -222,7 +222,7 @@ cv2.destroyAllWindows()
 #### iii.)Convert the image from RGB to YCrCb and display it.
 ```Python
 import cv2
-img = cv2.imread('sun.jpg',1)
+img = cv2.imread('c.jpg',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
 YCrCb1 = cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb)
@@ -239,7 +239,7 @@ cv2.destroyAllWindows()
 #### iv.)Convert the HSV image back to RGB and display it.
 ```Python
 import cv2
-img = cv2.imread('sun.jpg',1)
+img = cv2.imread('c.jpg',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
 BGR = cv2.cvtColor(img,cv2.COLOR_HSV2BGR)
@@ -257,7 +257,7 @@ cv2.destroyAllWindows()
 import cv2
 
 # Load and resize the image
-img = cv2.imread('jesko.jpg', 1)
+img = cv2.imread('c.jpg', 1)
 img = cv2.resize(img, (300, 200))
 
 # Show the original image
@@ -308,7 +308,7 @@ cv2.destroyAllWindows()
 import cv2
 
 # Load the image
-image1=cv2.imread('sun.jpg',1)
+image1=cv2.imread('c.jpg',1)
 
 # Define the starting point and size of the ROI
 x, y = 50, 50
@@ -332,7 +332,7 @@ i.)Flip the original image horizontally and display it.
 ```Python
 
 import cv2
-img = cv2.imread("sun.JPG")
+img = cv2.imread("c.JPG")
 img = cv2.resize(img,(300,200))
 res=cv2.rotate(img,cv2.ROTATE_180)
 cv2.imshow('Original',img)
@@ -350,7 +350,7 @@ cv2.destroyAllWindows()
 ```Python
 import cv2
 
-img = cv2.imread("sun.JPG")
+img = cv2.imread("c.JPG")
 img = cv2.resize(img,(300,200))
 res=cv2.rotate(img,cv2.ROTATE_90_CLOCKWISE)
 # Display the HSV image
@@ -368,7 +368,7 @@ cv2.destroyAllWindows()
 ## 8. Write and Save the Modified Image:
 ```Python
 import cv2
-img = cv2.imread("sun.JPG")
+img = cv2.imread("c.JPG")
 img = cv2.resize(img,(300,200))
 cv2.imwrite('sunny1.jpg',img)
 ```
