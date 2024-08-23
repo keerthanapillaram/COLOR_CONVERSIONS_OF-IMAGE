@@ -301,6 +301,7 @@ cv2.destroyAllWindows()
 ```
 ### Output:
 
+![image](https://github.com/user-attachments/assets/6f8dff87-6857-4f70-b9a8-70a2bd95e780)
 
 
 ## 6.Image Cropping:
